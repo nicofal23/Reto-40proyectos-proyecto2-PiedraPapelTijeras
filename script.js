@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const choices = {
-    piedra: "/assets/img/piedra.png",
-    papel: "/assets/img/papel.png",
-    tijeras: "/assets/img/tijeras.png",
+    piedra: "./assets/img/piedra.png",
+    papel: "./assets/img/papel.png",
+    tijeras: "./assets/img/tijeras.png",
 };
 
 function play(choice) {
